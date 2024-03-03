@@ -1,0 +1,11 @@
+.btn-primary {
+  background-color: darkseagreen;
+  color: white;
+  border: none;
+  height: 48px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}

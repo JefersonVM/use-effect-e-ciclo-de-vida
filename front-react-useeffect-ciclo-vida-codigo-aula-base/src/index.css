@@ -1,0 +1,44 @@
+@import "./buttons.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  color: lightgray;
+  background-color: rgb(7, 3, 22);
+
+  font-family: "Fira Code", monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  padding: 0 16px;
+  font-size: 48px;
+  height: 80px;
+  width: 100%;
+  border-radius: 32px;
+  background-color: rgb(18, 14, 30);
+  color: white;
+  text-align: center;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
