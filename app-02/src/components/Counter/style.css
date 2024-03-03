@@ -1,0 +1,22 @@
+.container-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f0f0f0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
